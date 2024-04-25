@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Monedas Latinoamericanas</title>
+    <link rel="stylesheet" href="Styles.css">
+
+
+</head>
+<body>
+<img src="/Imagen/Icono.png" alt="Icono de Alura">
+
+<div class="contenedor">
+    <h1>¡Convierte tus monedas con facilidad!</h1>
+
+
+    <div class="opciones">
+        <label for="monedaOrigen">Moneda de Orige:</label>
+        <select id="monedaOrigen">
+            <option value="USD">Dólar Estadounidense</option>
+            <option value="COP">Peso Colombiano</option>
+            <option value="CLP">Peso Chileno</option>
+            <option value="BOB">Boliviano Boliviano</option>
+            <option value="BRL">Real Brasileño</option>
+            <option value="ARS">Peso Argentino</option>
+        </select>
+    </div>
+
+    <div class="opciones">
+        <label for="monedaDestino">Moneda a Convertir:</label>
+        <select id="monedaDestino">
+            <option value="USD">Dólar Estadounidense</option>
+            <option value="COP">Peso Colombiano</option>
+            <option value="CLP">Peso Chileno</option>
+            <option value="BOB">Boliviano Boliviano</option>
+            <option value="BRL">Real Brasileño</option>
+            <option value="ARS">Peso Argentino</option>
+        </select>
+    </div>
+
+    <div class="entrada">
+        <label for="cantidad">Valor a convertir:</label>
+        <input type="number" id="cantidad">
+    </div>
+
+    <button id="btnConvertir">Convertir</button>
+
+    <div class="folder">
+        <p>Armando Tapia Hernandez .</p>
+    </div>
+
+    <div id="resultado"></div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
